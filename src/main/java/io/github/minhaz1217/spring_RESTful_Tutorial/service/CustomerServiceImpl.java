@@ -29,6 +29,12 @@ public class CustomerServiceImpl implements CustomerService {
 //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    @Override
+    public Customer saveCustomer(Customer customer) {
+        return customerRepository.save(customer);
+//throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 
     
 }

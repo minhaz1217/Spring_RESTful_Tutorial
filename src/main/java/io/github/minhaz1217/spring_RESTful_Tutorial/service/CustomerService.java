@@ -16,4 +16,6 @@ public interface CustomerService {
     Customer FindCustomerById(Long id);
     List<Customer> findAllCustomer();
 
+    public Customer saveCustomer(Customer customer);
+
 }
